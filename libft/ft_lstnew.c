@@ -6,13 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 10:19:30 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/14 15:55:35 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 10:45:31 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
-#include <stdio.h>
 
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {

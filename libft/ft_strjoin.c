@@ -6,13 +6,13 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 10:11:13 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/12 10:18:46 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 11:14:07 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
-static int	ft_strlen(char const *str)
+static int	ft_strplen(char const *str)
 {
 	int i;
 
@@ -32,8 +32,8 @@ char		*ft_strjoin(char const *s1, char const *s2)
 
 	if (!(s1) || !(s2))
 		return (NULL);
-	lens1 = ft_strlen(s1);
-	lens2 = ft_strlen(s2);
+	lens1 = ft_strplen(s1);
+	lens2 = ft_strplen(s2);
 	if (!(str = (char*)malloc(sizeof(*str) * (lens1 + lens2 + 1))))
 		return (NULL);
 	lens1 = 0;

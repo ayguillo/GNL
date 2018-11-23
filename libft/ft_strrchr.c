@@ -6,21 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 17:34:02 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/13 13:48:14 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 11:13:37 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-static int	ft_strlen(const char *str)
-{
-	int i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
+#include "libft.h"
 
 char		*ft_strrchr(const char *s, int c)
 {

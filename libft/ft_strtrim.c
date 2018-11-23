@@ -6,12 +6,10 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 10:14:00 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/14 16:36:55 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 11:06:26 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
 
 char		*ft_strtrim(char const *s)

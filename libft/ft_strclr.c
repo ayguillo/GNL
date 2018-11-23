@@ -6,11 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 16:57:18 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/14 15:52:29 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 10:59:33 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	ft_strclr(char *s)
 {

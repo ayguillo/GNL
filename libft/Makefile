@@ -6,13 +6,17 @@
 #    By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 09:51:31 by ayguillo          #+#    #+#              #
-#    Updated: 2018/11/20 11:22:07 by ayguillo         ###   ########.fr        #
+#    Updated: 2018/11/23 11:22:50 by ayguillo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-CC = @ gcc -Wall -Wextra -Werror
+INCLUDES = ./includes/
+
+CC = @ gcc 
+
+CFLAGS = -c -I $(INCLUDES) -Wall -Wextra -Werror
 
 SRC = ft_atoi.c \
 	  ft_bzero.c \
@@ -87,11 +91,17 @@ all : $(NAME)
 $(NAME) : $(OBJ)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
+	@echo "libft compiled ✔"
+
+%.o: %.c
+	@$(CC) $(CFLAGS) -c $<
 
 clean :
 	@/bin/rm -f $(OBJ)
+	@echo "objects deleted ✔"
 
 fclean : clean
 	@/bin/rm -f $(NAME)
+	@echo "deleted ✔"
 
 re : fclean $(NAME)

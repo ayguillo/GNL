@@ -6,11 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 10:20:43 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/14 16:37:45 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 11:05:39 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static int	ft_words_l(char const *s, char c)
 {

@@ -6,11 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 16:37:02 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/14 16:47:45 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 10:57:55 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putnstr(char const *s, int size)
 {

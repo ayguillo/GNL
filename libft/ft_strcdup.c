@@ -6,11 +6,11 @@
 /*   By: ayguillo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/20 11:18:20 by ayguillo          #+#    #+#             */
-/*   Updated: 2018/11/21 15:40:10 by ayguillo         ###   ########.fr       */
+/*   Updated: 2018/11/23 10:58:56 by ayguillo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strcdup(const char *s1, char c)
 {
